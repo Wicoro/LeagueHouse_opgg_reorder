@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "League House Reorder",
+  "version": "1.0",
+  "description": "Reorders summoners on OP.GG multisearch to match URL parameter order",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://op.gg/*/lol/multisearch/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
