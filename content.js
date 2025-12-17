@@ -52,10 +52,10 @@ function reorderSummoners() {
   const summonerColumns = Array.from(container.children).filter(child => 
     child.classList.contains('flex') && child.classList.contains('flex-col')
   );
-  
+
+
   if (summonerColumns.length < 5) {
-    console.log('No summoner columns found, retrying...');
-    return false;
+    console.log('Not enough summoner columns found, ordering ' + summonerColumns.length + ' columns.');
   }
   
   console.log('Found', summonerColumns.length, 'summoner columns');
@@ -114,6 +114,9 @@ function reorderSummoners() {
     console.log('No reordering needed');
   }
   
+  if (summonerColumns.length < 5) {
+    return false;
+  }
   return true;
 }
 
