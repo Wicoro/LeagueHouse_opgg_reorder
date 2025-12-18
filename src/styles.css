@@ -1,0 +1,93 @@
+/* LeagueHouse OP.GG Tools Styles */
+
+.lh-swap-container {
+  position: fixed;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 10000;
+  background: rgba(45, 45, 45, 0.95);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.lh-role-btn {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #555;
+  background: #2d2d2d;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  user-select: none;
+  color: white;
+}
+
+.lh-role-btn:hover {
+  transform: translateX(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-color: #3b82f6;
+  background: #3a3a3a;
+}
+
+.lh-role-btn.lh-selected {
+  border-color: #3b82f6;
+  background: #1e3a5f;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.lh-swap-menu {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  background: rgba(45, 45, 45, 0.95);
+  padding: 10px;
+  border-radius: 10px;  
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  z-index: 10001;
+  animation: lh-fadeIn 0.2s ease;
+  backdrop-filter: blur(10px);
+}
+
+@keyframes lh-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.lh-swap-option {
+  width: 44px;
+  height: 44px;
+  border: 2px solid #555;
+  background: #2d2d2d;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  user-select: none;
+  color: white;
+}
+
+.lh-swap-option:hover {
+  transform: scale(1.1);
+  border-color: #10b981;
+  background: #1a4d2e;
+}
