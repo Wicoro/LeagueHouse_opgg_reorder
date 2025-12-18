@@ -14,26 +14,26 @@ Lorsque vous ouvrez un lien multisearch OP.GG (par exemple, depuis le bot Discor
 ### Pour Chrome
 
 1. **Téléchargez les fichiers de l'extension**
-   - Créez un nouveau dossier sur votre ordinateur appelé `opgg-reorder`
+   - Créez un nouveau dossier sur votre ordinateur appelé `LeagueHouse-opgg-tool`
    - Enregistrez `manifest.json` et `content.js` dans ce dossier
 
 3. **Chargez l'extension**
    - Ouvrez Chrome et naviguez vers `chrome://extensions/`
    - Activez le **Mode développeur** (interrupteur dans le coin supérieur droit)
    - Cliquez sur **"Charger l'extension non empaquetée"**
-   - Sélectionnez votre dossier `opgg-reorder`
+   - Sélectionnez votre dossier `LeagueHouse-opgg-tool`
    - L'extension est maintenant installée !
 
 ### Pour Firefox
 
 1. **Téléchargez les fichiers de l'extension**
-   - Créez un nouveau dossier sur votre ordinateur appelé `opgg-reorder`
+   - Créez un nouveau dossier sur votre ordinateur appelé `LeagueHouse-opgg-tool`
    - Enregistrez `manifest.json` et `content.js` dans ce dossier
 
 3. **Chargez l'extension temporairement**
    - Ouvrez Firefox et naviguez vers `about:debugging#/runtime/this-firefox`
    - Cliquez sur **"Charger un module complémentaire temporaire..."**
-   - Naviguez vers votre dossier `opgg-reorder` et sélectionnez le fichier `manifest.json`
+   - Naviguez vers votre dossier `LeagueHouse-opgg-tool` et sélectionnez le fichier `manifest.json`
    - L'extension est maintenant installée !
    
    **Note :** Dans Firefox, les extensions temporaires sont supprimées lorsque vous fermez le navigateur. Pour une installation permanente, vous devrez signer l'extension via Mozilla.
@@ -42,7 +42,7 @@ Lorsque vous ouvrez un lien multisearch OP.GG (par exemple, depuis le bot Discor
 
 1. Ouvrez n'importe quelle URL multisearch OP.GG avec plusieurs invocateurs
 2. L'extension détecte automatiquement la page et réordonne les invocateurs pour correspondre à l'ordre de l'URL
-3. C'est tout ! Aucune configuration nécessaire.
+3. L'extension ajoute également un outil de swap à la droite de l'écran
 
 ### L'extension ne fonctionne pas
 
@@ -86,26 +86,26 @@ When you open an OP.GG multisearch link (e.g., from a LeagueHouse Discord bot), 
 ### For Chrome
 
 1. **Download the extension files**
-   - Create a new folder on your computer called `opgg-reorder`
+   - Create a new folder on your computer called `LeagueHouse-opgg-tool`
    - Save `manifest.json` and `content.js` into this folder
 
 3. **Load the extension**
    - Open Chrome and navigate to `chrome://extensions/`
    - Enable **Developer mode** (toggle switch in the top right corner)
    - Click **"Load unpacked"**
-   - Select your `opgg-reorder` folder
+   - Select your `LeagueHouse-opgg-tool` folder
    - The extension is now installed!
 
 ### For Firefox
 
 1. **Download the extension files**
-   - Create a new folder on your computer called `opgg-reorder`
+   - Create a new folder on your computer called `LeagueHouse-opgg-tool`
    - Save `manifest.json` and `content.js` into this folder
 
 3. **Load the extension temporarily**
    - Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
    - Click **"Load Temporary Add-on..."**
-   - Navigate to your `opgg-reorder` folder and select the `manifest.json` file
+   - Navigate to your `LeagueHouse-opgg-tool` folder and select the `manifest.json` file
    - The extension is now installed!
    
    **Note:** In Firefox, temporary extensions are removed when you close the browser. For permanent installation, you would need to sign the extension through Mozilla.
@@ -114,7 +114,7 @@ When you open an OP.GG multisearch link (e.g., from a LeagueHouse Discord bot), 
 
 1. Open any OP.GG multisearch URL with multiple summoners
 2. The extension automatically detects the page and reorders the summoners to match the URL order
-3. That's it! No configuration needed.
+3. The extension adds a swapping tool at the right of the screen
 
 ### The extension isn't working
 
