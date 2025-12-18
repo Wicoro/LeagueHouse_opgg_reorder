@@ -1,4 +1,4 @@
-# LeagueHouse_opgg_reorder Extension
+# LeagueHouse_opgg_tool Extension by Wicoro
 
 Une extension de navigateur qui trie automatiquement les invocateurs sur les pages multisearch d'OP.GG pour correspondre à l'ordre spécifié dans les paramètres de l'URL.
 
@@ -48,14 +48,9 @@ Lorsque vous ouvrez un lien multisearch OP.GG (par exemple, depuis le bot Discor
 
 Contactez `wicoro` sur Discord
 
-Vérifiez que :
-- L'extension est activée dans le gestionnaire d'extensions de votre navigateur
-- Vous êtes sur une page multisearch d'OP.GG (pas une page d'invocateur unique)
-- L'URL contient plusieurs invocateurs dans le paramètre `summoners=`
-
 ## Détails techniques
 
-- **Version du Manifest :** 3
+- **Version du Manifest :** 1.1
 - **Permissions :** activeTab (accède uniquement aux pages OP.GG que vous consultez)
 - **Sites supportés :** pages multisearch op.gg dans toutes les régions
 - **Script de contenu :** S'exécute automatiquement lorsque vous visitez des pages correspondantes
@@ -120,14 +115,9 @@ When you open an OP.GG multisearch link (e.g., from a LeagueHouse Discord bot), 
 
 Contact `wicoro` on Discord
 
-Check that:
-- The extension is enabled in your browser's extension manager
-- You're on an OP.GG multisearch page (not a single summoner page)
-- The URL contains multiple summoners in the `summoners=` parameter
-
 ## Technical Details
 
-- **Manifest Version:** 3
+- **Manifest Version:** 1.1
 - **Permissions:** activeTab (only accesses OP.GG pages you're viewing)
 - **Supported Sites:** op.gg multisearch pages across all regions
 - **Content Script:** Runs automatically when you visit matching pages
